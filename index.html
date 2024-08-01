@@ -2,19 +2,25 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Kosugi&amp;display=swap" rel="stylesheet">
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="style.css" >
     <title>dragon radar</title>
   </head>
   <body>
+	<h2>DRAGON RADAR</h2>
+	<center>
     <div class="container">
       <div class="map" id="map" style="width:640px; height:640px"></div>
       <div class="radar">
         <div class="radar_screen"></div>
         <div class="radar_scanner"></div>
-        <!-- <div class="radar_case"></div> -->
+        <div class="radar_case"></div>
       </div>
-
+	</center>
+	</div>
     <script type="text/javascript" src="script.js"></script>
     <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqAJnZ7H3ZLuBJD-GKBuHYikJPcsbf68E&callback=initMap">

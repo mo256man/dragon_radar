@@ -1,3 +1,29 @@
+.pic-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    background-color: #fefefe;
+}
+
+
+h2 {
+    padding: 1rem;
+    border-top: 6px double #333;
+    border-bottom: 6px double #333;
+    background: linear-gradient(0deg, #7DD9DD 0 50%, #488ABB 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Anton', 'Kosugi', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    -webkit-text-stroke: 2.5px #000;
+
+}
+
 .container {
     position: relative;
     width: 640px;
@@ -36,8 +62,8 @@ div.map {
 }
 
 .radar_screen {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height:100%;
     pointer-events: none;
     border-radius: 50%;
     background-color: #2802 ;
